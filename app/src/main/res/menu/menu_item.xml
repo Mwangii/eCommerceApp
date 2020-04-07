@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/nav_cart"
+        android:iconTint="@android:color/holo_blue_dark"
+
+        android:title="Cart" />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:iconTint="@android:color/white"
+        android:title="Search" />
+    <item
+        android:id="@+id/slideshow"
+        android:iconTint="@android:color/white"
+        android:icon="@drawable/category"
+        android:title="@string/menu_slideshow" />
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/logout"
+        android:iconTint="@android:color/white"
+        android:title="Settings" />
+    <item
+        android:id="@+id/logout"
+        android:iconTint="@android:color/white"
+        android:icon="@drawable/logout"
+        android:title="Log Out" />
+
+</menu>
